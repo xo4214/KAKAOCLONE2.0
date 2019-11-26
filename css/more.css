@@ -4,11 +4,10 @@
   margin-left: 10px;
   display: flex;
   align-items: center;
-  
 }
 
 .more__btn-list .more__btn,
-.more .suggestion{
+.more .suggestion {
   margin-right: 40px;
   display: flex;
   flex-direction: column;
@@ -33,24 +32,24 @@
 
 .more .more__suggestions-list {
   display: flex;
-  align-items
+  align-items: center;
 }
 
 .suggestion .suggestion__title {
-    font-size: 12px;
-    margin-top: 15px;
+  font-size: 10px;
+  margin-top: 15px;
 }
 
-.suggestion .suggestion__icon{
-    background-color: #fce006;
-    padding: 10px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.suggestion .suggestion__icon {
+  background-color: #fce006;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.suggestion__icon i{
-    font-size: 28px;
-    color: white;
+.suggestion__icon i {
+  font-size: 28px;
+  color: white;
 }
